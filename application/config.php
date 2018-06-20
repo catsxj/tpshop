@@ -15,7 +15,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 应用调试模式
-    'app_debug'              => false,
+    'app_debug'              => true,
     // 应用Trace
     'app_trace'              => false,
     // 应用模式状态
@@ -237,5 +237,17 @@ return [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
         'list_rows' => 15,
+    ],
+
+    //视图输出字符串内容替换
+    'view_replace_str' => [
+        //定义前台资源路径
+        '__INDEX_CSS__' => '/static/index/style',
+        '__INDEX_JS__' => '/static/index/js',
+        '__INDEX_IMGS__' => '/static/index/images',
+        //定义后台资源路径
+        '__ADMIN_CSS__' => '/static/admin/css',
+        '__ADMIN_JS__' => '/static/admin/js',
+        '__ADMIN_IMGS__' => '/static/admin/img',
     ],
 ];
