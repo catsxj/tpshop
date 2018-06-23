@@ -11,9 +11,11 @@
 
 // [ 应用入口文件 ]
 
+//设置字符集
+header("content-type:text/html; charset=utf-8");
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
+// 定义配置文件目录
+define('CONF_PATH', __DIR__ . '/../conf/');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
-//设置字符集
-header("content-type:text/html, charset=utf-8");

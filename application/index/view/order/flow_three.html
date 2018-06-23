@@ -1,0 +1,36 @@
+{extend name="common/base" /}
+{block name="title"}成功提交订单{/block}
+{block name="linkFile"}
+	<link rel="stylesheet" href="__INDEX_CSS__/base.css" type="text/css">
+	<link rel="stylesheet" href="__INDEX_CSS__/global.css" type="text/css">
+	<link rel="stylesheet" href="__INDEX_CSS__/header.css" type="text/css">
+	<link rel="stylesheet" href="__INDEX_CSS__/success.css" type="text/css">
+	<link rel="stylesheet" href="__INDEX_CSS__/footer.css" type="text/css">
+{/block}
+{block name="header"}
+	<div class="header w990 bc mt15">
+		<div class="logo w990">
+			<h2 class="fl"><a href="index.html"><img src="__INDEX_IMGS__/logo.png" alt="京西商城"></a></h2>
+			<div class="flow fr flow3">
+				<ul>
+					<li>1.我的购物车</li>
+					<li>2.填写核对订单信息</li>
+					<li class="cur">3.成功提交订单</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+{/block}
+{block name="body"}
+	<div class="success w990 bc mt15">
+		<div class="success_hd">
+			<h2>订单提交成功</h2>
+		</div>
+		<div class="success_bd">
+			<p><span></span>订单提交成功，我们将及时为您处理</p>
+			
+			<p class="message">完成支付后，你可以 <a href="">查看订单状态</a>  <a href="">继续购物</a> <a href="">问题反馈</a></p>
+		</div>
+	</div>
+{/block}
+{block name="bottomNav"}{/block}
