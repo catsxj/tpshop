@@ -14,9 +14,6 @@
 	        '__INDEX_CSS__' => '/static/index/style',
 	        '__INDEX_JS__' => '/static/index/js',
 	        '__INDEX_IMGS__' => '/static/index/images',
-	        //定义后台资源路径
-	        '__ADMIN_CSS__' => '/static/admin/css',
-	        '__ADMIN_IMGS__' => '/static/admin/img',
 	        
 	    ],
 	    // 应用调试模式
